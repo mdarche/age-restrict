@@ -1,0 +1,38 @@
+.ar-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 10000;
+}
+
+.ar-overlay.hide {
+  display: none;
+}
+
+.ar-container {
+  background-color: #fbfbfb;
+  text-align: center;
+  padding: 30px;
+  width: 500px;
+  margin-top: -30px;
+}
+
+.ar-container img {
+  height: 180px;
+  width: 280px;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+.ar-container p {
+  font-size: 15px;
+}
+
+.age-restrict {
+  overflow: hidden;
+}
